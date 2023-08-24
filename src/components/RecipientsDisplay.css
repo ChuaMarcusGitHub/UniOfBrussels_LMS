@@ -1,0 +1,29 @@
+
+.badge {
+    position: sticky;
+    font-size: 16;
+    color: #f0f0f0;
+    background-color: #666666;
+    border-radius: 3px;
+    padding: 2px 5px;
+
+}
+.text {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+.cell {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 16;
+    color: #333333;
+    border-radius: 3px;
+    padding: 5px 10px;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
